@@ -31,14 +31,14 @@ _El último comando a utilizar es nodemon, el cual pondra nuestro proyecto a fun
 nodemon
 ```
 
-_Podemos realizar las siguientes consultas_
+_Podemos realizar consultas en las siguientes rutas_
 
 ```
-Get games    => Trae todas las partidas
-Get game     => Trae los datos del juego que especifiquemos /:id
-Delete Game  => Borra un juego que le digamos mediante el parametro /:id
-Post games   => Crea un juego nuevo. Si no ponemos datos esta como default juego Created
-PUT game     => Nos permite modificar el estado un juego,
+Get /games    => Trae todas las partidas
+Get /games/:id     => Trae los datos del juego que especifiquemos /:id
+Delete /games/:id  => Borra un juego que le digamos mediante el parametro /:id
+Post /games   => Crea un juego nuevo. Si no ponemos datos esta como default juego Created
+PUT /games/:id     => Nos permite modificar el estado un juego,
 ```
 ## Ejecutando las pruebas
 
@@ -48,7 +48,7 @@ _Para utilizar las distintas rutas necesitaremos enviar los datos de la siguient
 
 ```
 {
-    "state_id":1,
+    "state_id":Número de estado(por defecto va a ser 1),
     "cells_id":null
 }
 ```
