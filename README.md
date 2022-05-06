@@ -2,7 +2,7 @@
 
 _Challengue realizado para TAP
 
-## Comenzando 🚀
+## Comenzando 
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
@@ -40,7 +40,7 @@ Delete Game  => Borra un juego que le digamos mediante el parametro /:id
 Post games   => Crea un juego nuevo. Si no ponemos datos esta como default juego Created
 PUT game     => Nos permite modificar el estado un juego,
 ```
-## Ejecutando las pruebas ⚙️
+## Ejecutando las pruebas
 
 _Utilización de las rutas y datos necesarios_
 
