@@ -1,4 +1,4 @@
-const {createStates, showGames, createGame ,deleteGame,updateGame, showGame} = require('../controllers/indexController');
+const {showGames, createGame ,deleteGame,updateGame, showGame} = require('../controllers/indexController');
 const router = require('express').Router();
 
 //display an specific game
