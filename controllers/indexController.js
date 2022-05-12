@@ -1,4 +1,4 @@
-const { Games, State, Cells } = require("../models");
+const { Games, Cells } = require("../models");
 
 module.exports = {
   //display games
