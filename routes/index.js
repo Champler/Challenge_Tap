@@ -4,7 +4,7 @@ const router = require('express').Router();
 //display an specific game
 router.get('/:id', showGame)
 //display  games
-router.get('/', showGames)
+router.get('/index', showGames)
 //create a new game
 router.post('/', createGame)
 //update a game
