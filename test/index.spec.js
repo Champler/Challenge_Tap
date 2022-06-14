@@ -6,7 +6,7 @@ describe('GET /games', () => {
         const response = await request(app).get('/games');
         expect(response.statusCode).toBe(200);
     });
-    test('sould respond with a json', async () => {
+    test('should respond with a json', async () => {
         const response = await request(app).get('/games').send()
         expect(response.type).toBe('application/json');
      });
@@ -16,7 +16,7 @@ describe('GET /games/:id',() => {
        const response = await request(app).get('/games/3').send()
        expect(response.statusCode).toBe(200);
     });
-    test('sould respond with a json', async () => {
+    test('should respond with a json', async () => {
         const response = await request(app).get('/games/3').send()
         expect(response.type).toBe('application/json');
      });
@@ -27,7 +27,7 @@ describe('POST /games',() => {
         const response = await request(app).post('/games').send()
         expect(response.statusCode).toBe(200);
         });
-    test('sould respond with a json', async () => {
+    test('should respond with a json', async () => {
             const response = await request(app).post('/games').send()
             expect(response.type).toBe('application/json');
         });    
